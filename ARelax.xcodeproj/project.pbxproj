@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182D24E724B6A74900E68A4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D24E624B6A74900E68A4F /* AppDelegate.swift */; };
+		182D24E924B6A74900E68A4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D24E824B6A74900E68A4F /* SceneDelegate.swift */; };
+		182D24EB24B6A74900E68A4F /* VirtualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D24EA24B6A74900E68A4F /* VirtualViewController.swift */; };
+		182D24EE24B6A74900E68A4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182D24EC24B6A74900E68A4F /* Main.storyboard */; };
+		182D24F124B6A74900E68A4F /* ARelax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182D24EF24B6A74900E68A4F /* ARelax.xcdatamodeld */; };
+		182D24F324B6A74C00E68A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182D24F224B6A74C00E68A4F /* Assets.xcassets */; };
+		182D24F624B6A74C00E68A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182D24F424B6A74C00E68A4F /* LaunchScreen.storyboard */; };
+		182D250124B6A74C00E68A4F /* ARelaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D250024B6A74C00E68A4F /* ARelaxTests.swift */; };
+		182D250C24B6A74C00E68A4F /* ARelaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D250B24B6A74C00E68A4F /* ARelaxUITests.swift */; };
+		182D251C24B844FA00E68A4F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D251B24B844FA00E68A4F /* MainViewController.swift */; };
+		182D251E24B84ED700E68A4F /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D251D24B84ED700E68A4F /* UIExtensions.swift */; };
+		182D252024B84EEB00E68A4F /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D251F24B84EEB00E68A4F /* MainCollectionViewCell.swift */; };
+		182D252424B8F0AF00E68A4F /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D252324B8F0AF00E68A4F /* Options.swift */; };
+		182D252624B9301F00E68A4F /* FaceClassficationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D252524B9301E00E68A4F /* FaceClassficationViewController.swift */; };
+		18750DA924BA807200D1061E /* celebration.json in Resources */ = {isa = PBXBuildFile; fileRef = 18750DA824BA807100D1061E /* celebration.json */; };
+		18750DAC24BA9AE400D1061E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18750DAB24BA9AE400D1061E /* SettingViewController.swift */; };
+		18750DAE24BAB7B800D1061E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18750DAD24BAB7B800D1061E /* GameViewController.swift */; };
+		18750DB624BADE9E00D1061E /* EMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18750DB224BADE9E00D1061E /* EMAlertController.swift */; };
+		18750DB724BADE9E00D1061E /* EMAlertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18750DB324BADE9E00D1061E /* EMAlertTextField.swift */; };
+		18750DB824BADE9E00D1061E /* EMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18750DB424BADE9E00D1061E /* EMAlertAction.swift */; };
+		18750DB924BADE9E00D1061E /* UIColor+EMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18750DB524BADE9E00D1061E /* UIColor+EMAlertController.swift */; };
+		22EA20A715D1070B1002337C /* Pods_ARelaxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3074B196ACA0BE1A188EC9F /* Pods_ARelaxTests.framework */; };
+		4E78DBCBD71C3D445103308A /* Pods_ARelax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097EC670B5CC64640FDD17D3 /* Pods_ARelax.framework */; };
+		C162137B3B0260614A5CC2D1 /* Pods_ARelax_ARelaxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4A08B07BBC3F834A9235B0 /* Pods_ARelax_ARelaxUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182D24FD24B6A74C00E68A4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182D24DB24B6A74900E68A4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182D24E224B6A74900E68A4F;
+			remoteInfo = ARelax;
+		};
+		182D250824B6A74C00E68A4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182D24DB24B6A74900E68A4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182D24E224B6A74900E68A4F;
+			remoteInfo = ARelax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		097EC670B5CC64640FDD17D3 /* Pods_ARelax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARelax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4A08B07BBC3F834A9235B0 /* Pods_ARelax_ARelaxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARelax_ARelaxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AF74DEE1C288E11961C407 /* Pods-ARelax-ARelaxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARelax-ARelaxUITests.release.xcconfig"; path = "Target Support Files/Pods-ARelax-ARelaxUITests/Pods-ARelax-ARelaxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		182D24E324B6A74900E68A4F /* ARelax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARelax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182D24E624B6A74900E68A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182D24E824B6A74900E68A4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		182D24EA24B6A74900E68A4F /* VirtualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViewController.swift; sourceTree = "<group>"; };
+		182D24ED24B6A74900E68A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182D24F024B6A74900E68A4F /* ARelax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARelax.xcdatamodel; sourceTree = "<group>"; };
+		182D24F224B6A74C00E68A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182D24F524B6A74C00E68A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182D24F724B6A74C00E68A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182D24FC24B6A74C00E68A4F /* ARelaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARelaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182D250024B6A74C00E68A4F /* ARelaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARelaxTests.swift; sourceTree = "<group>"; };
+		182D250224B6A74C00E68A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182D250724B6A74C00E68A4F /* ARelaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARelaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182D250B24B6A74C00E68A4F /* ARelaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARelaxUITests.swift; sourceTree = "<group>"; };
+		182D250D24B6A74C00E68A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182D251B24B844FA00E68A4F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		182D251D24B84ED700E68A4F /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		182D251F24B84EEB00E68A4F /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		182D252324B8F0AF00E68A4F /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		182D252524B9301E00E68A4F /* FaceClassficationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceClassficationViewController.swift; sourceTree = "<group>"; };
+		18750DA824BA807100D1061E /* celebration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = celebration.json; sourceTree = "<group>"; };
+		18750DAB24BA9AE400D1061E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		18750DAD24BAB7B800D1061E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		18750DB224BADE9E00D1061E /* EMAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMAlertController.swift; sourceTree = "<group>"; };
+		18750DB324BADE9E00D1061E /* EMAlertTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMAlertTextField.swift; sourceTree = "<group>"; };
+		18750DB424BADE9E00D1061E /* EMAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMAlertAction.swift; sourceTree = "<group>"; };
+		18750DB524BADE9E00D1061E /* UIColor+EMAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+EMAlertController.swift"; sourceTree = "<group>"; };
+		37956BAC4E6EAC394AEA5B51 /* Pods-ARelax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARelax.release.xcconfig"; path = "Target Support Files/Pods-ARelax/Pods-ARelax.release.xcconfig"; sourceTree = "<group>"; };
+		6D545AAF9445620080B4BE96 /* Pods-ARelax-ARelaxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARelax-ARelaxUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARelax-ARelaxUITests/Pods-ARelax-ARelaxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6F62EEC655D96E479C66EB2 /* Pods-ARelaxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARelaxTests.debug.xcconfig"; path = "Target Support Files/Pods-ARelaxTests/Pods-ARelaxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBD0966EF6C2C6D5A5FFF7F2 /* Pods-ARelaxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARelaxTests.release.xcconfig"; path = "Target Support Files/Pods-ARelaxTests/Pods-ARelaxTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3074B196ACA0BE1A188EC9F /* Pods_ARelaxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARelaxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F86F8146B95D7C9CFA4DAD /* Pods-ARelax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARelax.debug.xcconfig"; path = "Target Support Files/Pods-ARelax/Pods-ARelax.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182D24E024B6A74900E68A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E78DBCBD71C3D445103308A /* Pods_ARelax.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182D24F924B6A74C00E68A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EA20A715D1070B1002337C /* Pods_ARelaxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182D250424B6A74C00E68A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C162137B3B0260614A5CC2D1 /* Pods_ARelax_ARelaxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182D24DA24B6A74900E68A4F = {
+			isa = PBXGroup;
+			children = (
+				182D24E524B6A74900E68A4F /* ARelax */,
+				182D24FF24B6A74C00E68A4F /* ARelaxTests */,
+				182D250A24B6A74C00E68A4F /* ARelaxUITests */,
+				182D24E424B6A74900E68A4F /* Products */,
+				9238128132CD250691354E14 /* Pods */,
+				ABC9920F611F7C003E64A4BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		182D24E424B6A74900E68A4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182D24E324B6A74900E68A4F /* ARelax.app */,
+				182D24FC24B6A74C00E68A4F /* ARelaxTests.xctest */,
+				182D250724B6A74C00E68A4F /* ARelaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182D24E524B6A74900E68A4F /* ARelax */ = {
+			isa = PBXGroup;
+			children = (
+				18750DB024BAB7DC00D1061E /* Models */,
+				18750DAF24BAB7CA00D1061E /* Controllers */,
+				182D252224B8506900E68A4F /* Views */,
+				182D24F724B6A74C00E68A4F /* Info.plist */,
+				182D24F224B6A74C00E68A4F /* Assets.xcassets */,
+				182D252124B8505F00E68A4F /* Supporting */,
+			);
+			path = ARelax;
+			sourceTree = "<group>";
+		};
+		182D24FF24B6A74C00E68A4F /* ARelaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				182D250024B6A74C00E68A4F /* ARelaxTests.swift */,
+				182D250224B6A74C00E68A4F /* Info.plist */,
+			);
+			path = ARelaxTests;
+			sourceTree = "<group>";
+		};
+		182D250A24B6A74C00E68A4F /* ARelaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182D250B24B6A74C00E68A4F /* ARelaxUITests.swift */,
+				182D250D24B6A74C00E68A4F /* Info.plist */,
+			);
+			path = ARelaxUITests;
+			sourceTree = "<group>";
+		};
+		182D252124B8505F00E68A4F /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				18750DB124BADE9E00D1061E /* EMAlertController */,
+				18750DAA24BA807600D1061E /* Lottie Files */,
+				182D24E624B6A74900E68A4F /* AppDelegate.swift */,
+				182D24E824B6A74900E68A4F /* SceneDelegate.swift */,
+				182D24EF24B6A74900E68A4F /* ARelax.xcdatamodeld */,
+				182D251D24B84ED700E68A4F /* UIExtensions.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		182D252224B8506900E68A4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				182D24EC24B6A74900E68A4F /* Main.storyboard */,
+				182D24F424B6A74C00E68A4F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18750DAA24BA807600D1061E /* Lottie Files */ = {
+			isa = PBXGroup;
+			children = (
+				18750DA824BA807100D1061E /* celebration.json */,
+			);
+			path = "Lottie Files";
+			sourceTree = "<group>";
+		};
+		18750DAF24BAB7CA00D1061E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				182D252524B9301E00E68A4F /* FaceClassficationViewController.swift */,
+				182D251B24B844FA00E68A4F /* MainViewController.swift */,
+				182D251F24B84EEB00E68A4F /* MainCollectionViewCell.swift */,
+				182D24EA24B6A74900E68A4F /* VirtualViewController.swift */,
+				18750DAD24BAB7B800D1061E /* GameViewController.swift */,
+				18750DAB24BA9AE400D1061E /* SettingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18750DB024BAB7DC00D1061E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				182D252324B8F0AF00E68A4F /* Options.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18750DB124BADE9E00D1061E /* EMAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				18750DB224BADE9E00D1061E /* EMAlertController.swift */,
+				18750DB324BADE9E00D1061E /* EMAlertTextField.swift */,
+				18750DB424BADE9E00D1061E /* EMAlertAction.swift */,
+				18750DB524BADE9E00D1061E /* UIColor+EMAlertController.swift */,
+			);
+			path = EMAlertController;
+			sourceTree = "<group>";
+		};
+		9238128132CD250691354E14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9F86F8146B95D7C9CFA4DAD /* Pods-ARelax.debug.xcconfig */,
+				37956BAC4E6EAC394AEA5B51 /* Pods-ARelax.release.xcconfig */,
+				6D545AAF9445620080B4BE96 /* Pods-ARelax-ARelaxUITests.debug.xcconfig */,
+				17AF74DEE1C288E11961C407 /* Pods-ARelax-ARelaxUITests.release.xcconfig */,
+				C6F62EEC655D96E479C66EB2 /* Pods-ARelaxTests.debug.xcconfig */,
+				CBD0966EF6C2C6D5A5FFF7F2 /* Pods-ARelaxTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABC9920F611F7C003E64A4BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				097EC670B5CC64640FDD17D3 /* Pods_ARelax.framework */,
+				0B4A08B07BBC3F834A9235B0 /* Pods_ARelax_ARelaxUITests.framework */,
+				D3074B196ACA0BE1A188EC9F /* Pods_ARelaxTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182D24E224B6A74900E68A4F /* ARelax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182D251024B6A74C00E68A4F /* Build configuration list for PBXNativeTarget "ARelax" */;
+			buildPhases = (
+				F0574F1C73301F55E542CA7E /* [CP] Check Pods Manifest.lock */,
+				182D24DF24B6A74900E68A4F /* Sources */,
+				182D24E024B6A74900E68A4F /* Frameworks */,
+				182D24E124B6A74900E68A4F /* Resources */,
+				739860055295EBE999D39E74 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARelax;
+			productName = ARelax;
+			productReference = 182D24E324B6A74900E68A4F /* ARelax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182D24FB24B6A74C00E68A4F /* ARelaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182D251324B6A74C00E68A4F /* Build configuration list for PBXNativeTarget "ARelaxTests" */;
+			buildPhases = (
+				5BBDA60F1931566E558B9D52 /* [CP] Check Pods Manifest.lock */,
+				182D24F824B6A74C00E68A4F /* Sources */,
+				182D24F924B6A74C00E68A4F /* Frameworks */,
+				182D24FA24B6A74C00E68A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182D24FE24B6A74C00E68A4F /* PBXTargetDependency */,
+			);
+			name = ARelaxTests;
+			productName = ARelaxTests;
+			productReference = 182D24FC24B6A74C00E68A4F /* ARelaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182D250624B6A74C00E68A4F /* ARelaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182D251624B6A74C00E68A4F /* Build configuration list for PBXNativeTarget "ARelaxUITests" */;
+			buildPhases = (
+				B9C0F6CD399285A17FF5197D /* [CP] Check Pods Manifest.lock */,
+				182D250324B6A74C00E68A4F /* Sources */,
+				182D250424B6A74C00E68A4F /* Frameworks */,
+				182D250524B6A74C00E68A4F /* Resources */,
+				FEAD83AABB8863193610A015 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182D250924B6A74C00E68A4F /* PBXTargetDependency */,
+			);
+			name = ARelaxUITests;
+			productName = ARelaxUITests;
+			productReference = 182D250724B6A74C00E68A4F /* ARelaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182D24DB24B6A74900E68A4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Kaishan Ding";
+				TargetAttributes = {
+					182D24E224B6A74900E68A4F = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					182D24FB24B6A74C00E68A4F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 182D24E224B6A74900E68A4F;
+					};
+					182D250624B6A74C00E68A4F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 182D24E224B6A74900E68A4F;
+					};
+				};
+			};
+			buildConfigurationList = 182D24DE24B6A74900E68A4F /* Build configuration list for PBXProject "ARelax" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182D24DA24B6A74900E68A4F;
+			productRefGroup = 182D24E424B6A74900E68A4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182D24E224B6A74900E68A4F /* ARelax */,
+				182D24FB24B6A74C00E68A4F /* ARelaxTests */,
+				182D250624B6A74C00E68A4F /* ARelaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182D24E124B6A74900E68A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182D24F624B6A74C00E68A4F /* LaunchScreen.storyboard in Resources */,
+				182D24F324B6A74C00E68A4F /* Assets.xcassets in Resources */,
+				18750DA924BA807200D1061E /* celebration.json in Resources */,
+				182D24EE24B6A74900E68A4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182D24FA24B6A74C00E68A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182D250524B6A74C00E68A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BBDA60F1931566E558B9D52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARelaxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		739860055295EBE999D39E74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARelax/Pods-ARelax-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARelax/Pods-ARelax-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARelax/Pods-ARelax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C0F6CD399285A17FF5197D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARelax-ARelaxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0574F1C73301F55E542CA7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARelax-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEAD83AABB8863193610A015 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARelax-ARelaxUITests/Pods-ARelax-ARelaxUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARelax-ARelaxUITests/Pods-ARelax-ARelaxUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARelax-ARelaxUITests/Pods-ARelax-ARelaxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182D24DF24B6A74900E68A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182D252024B84EEB00E68A4F /* MainCollectionViewCell.swift in Sources */,
+				18750DB924BADE9E00D1061E /* UIColor+EMAlertController.swift in Sources */,
+				182D24F124B6A74900E68A4F /* ARelax.xcdatamodeld in Sources */,
+				182D24EB24B6A74900E68A4F /* VirtualViewController.swift in Sources */,
+				182D24E724B6A74900E68A4F /* AppDelegate.swift in Sources */,
+				182D252424B8F0AF00E68A4F /* Options.swift in Sources */,
+				18750DAC24BA9AE400D1061E /* SettingViewController.swift in Sources */,
+				182D251E24B84ED700E68A4F /* UIExtensions.swift in Sources */,
+				18750DB724BADE9E00D1061E /* EMAlertTextField.swift in Sources */,
+				182D24E924B6A74900E68A4F /* SceneDelegate.swift in Sources */,
+				18750DB624BADE9E00D1061E /* EMAlertController.swift in Sources */,
+				18750DB824BADE9E00D1061E /* EMAlertAction.swift in Sources */,
+				182D251C24B844FA00E68A4F /* MainViewController.swift in Sources */,
+				18750DAE24BAB7B800D1061E /* GameViewController.swift in Sources */,
+				182D252624B9301F00E68A4F /* FaceClassficationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182D24F824B6A74C00E68A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182D250124B6A74C00E68A4F /* ARelaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182D250324B6A74C00E68A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182D250C24B6A74C00E68A4F /* ARelaxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182D24FE24B6A74C00E68A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182D24E224B6A74900E68A4F /* ARelax */;
+			targetProxy = 182D24FD24B6A74C00E68A4F /* PBXContainerItemProxy */;
+		};
+		182D250924B6A74C00E68A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182D24E224B6A74900E68A4F /* ARelax */;
+			targetProxy = 182D250824B6A74C00E68A4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182D24EC24B6A74900E68A4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182D24ED24B6A74900E68A4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182D24F424B6A74C00E68A4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182D24F524B6A74C00E68A4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182D250E24B6A74C00E68A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182D250F24B6A74C00E68A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182D251124B6A74C00E68A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F86F8146B95D7C9CFA4DAD /* Pods-ARelax.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 458XY7U8R6;
+				INFOPLIST_FILE = ARelax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaishanDing.ARelax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		182D251224B6A74C00E68A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37956BAC4E6EAC394AEA5B51 /* Pods-ARelax.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 458XY7U8R6;
+				INFOPLIST_FILE = ARelax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaishanDing.ARelax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		182D251424B6A74C00E68A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F62EEC655D96E479C66EB2 /* Pods-ARelaxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 458XY7U8R6;
+				INFOPLIST_FILE = ARelaxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaishanDing.ARelaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARelax.app/ARelax";
+			};
+			name = Debug;
+		};
+		182D251524B6A74C00E68A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD0966EF6C2C6D5A5FFF7F2 /* Pods-ARelaxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 458XY7U8R6;
+				INFOPLIST_FILE = ARelaxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaishanDing.ARelaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARelax.app/ARelax";
+			};
+			name = Release;
+		};
+		182D251724B6A74C00E68A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D545AAF9445620080B4BE96 /* Pods-ARelax-ARelaxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 458XY7U8R6;
+				INFOPLIST_FILE = ARelaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaishanDing.ARelaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARelax;
+			};
+			name = Debug;
+		};
+		182D251824B6A74C00E68A4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AF74DEE1C288E11961C407 /* Pods-ARelax-ARelaxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 458XY7U8R6;
+				INFOPLIST_FILE = ARelaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaishanDing.ARelaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARelax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182D24DE24B6A74900E68A4F /* Build configuration list for PBXProject "ARelax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182D250E24B6A74C00E68A4F /* Debug */,
+				182D250F24B6A74C00E68A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182D251024B6A74C00E68A4F /* Build configuration list for PBXNativeTarget "ARelax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182D251124B6A74C00E68A4F /* Debug */,
+				182D251224B6A74C00E68A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182D251324B6A74C00E68A4F /* Build configuration list for PBXNativeTarget "ARelaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182D251424B6A74C00E68A4F /* Debug */,
+				182D251524B6A74C00E68A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182D251624B6A74C00E68A4F /* Build configuration list for PBXNativeTarget "ARelaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182D251724B6A74C00E68A4F /* Debug */,
+				182D251824B6A74C00E68A4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		182D24EF24B6A74900E68A4F /* ARelax.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				182D24F024B6A74900E68A4F /* ARelax.xcdatamodel */,
+			);
+			currentVersion = 182D24F024B6A74900E68A4F /* ARelax.xcdatamodel */;
+			path = ARelax.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 182D24DB24B6A74900E68A4F /* Project object */;
+}
